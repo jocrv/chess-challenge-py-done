@@ -1,0 +1,99 @@
+import pandas as pd    # for reading and manipulating tabular data
+#import networkx as nx  # for constructing and studying networks
+import numpy as np     # for arrays
+#import community           # for community structure later
+#import collections          # for manipulation tuples and zipping objects
+import statistics as stats  # for generating summary statistics
+#import time                 # for measuring computating time
+from matplotlib import pyplot as plt  # for outputting nice plots
+#import seaborn as sns                 # for creating even nicer plots
+
+#4x4 na 1 row
+
+#x = np.array([(0,1)])
+board = np.array([1,0,0,0])
+for x in board:
+    print()
+    for col in range(4):
+        print ("_ ", end = "")
+     
+     
+    
+
+
+    
+    #= np.array([0,0])
+       
+       
+       X _ _ _
+_ _ _ X
+_ X _ _
+_ _ _ X
+
+X _ _ _
+_ _ _ X
+_ X X _
+_ _ _ _
+
+
+
+
+
+
+[0,0,0,0,0]: 
+X _ _ _ _
+X _ _ _ _
+X _ _ _ _
+X _ _ _ _
+X _ _ _ _
+-------------------
+
+[1,0,1,1,1]:
+_ X _ _ _
+X _ _ _ _
+_ X _ _ _
+_ X _ _ _
+_ X _ _ _
+-------------------
+
+[0,2,1,3,4]:
+X _ _ _ _
+_ _ X _ _
+_ X _ _ _
+_ _ _ X _
+_ _ _ _ X
+
+n = []
+-------------------
+
+[4,1,2,3,0]:
+_ _ _ _ X
+_ X _ _ _
+_ _ X _ _
+_ _ _ X _
+X _ _ _ _
+-------------------
+
+np.array([0,0,0,0])
+
+
+board = np.array([0,0,0,0])
+
+
+
+
+se receber 2
+
+_ _
+_ _
+
+se receber 3
+
+_ _ _
+_ _ _
+_ _ _ 
+
+
+
+
+
